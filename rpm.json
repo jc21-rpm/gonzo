@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "gonzo",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "0.1.5"
+  }
+}
