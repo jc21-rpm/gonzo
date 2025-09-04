@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           gonzo
-Version:        0.1.5
+Version:        0.1.7
 Release:        1%{?dist}
 Summary:        Gonzo! The Go based TUI log analysis tool
 Group:          Applications/System
@@ -27,5 +27,9 @@ install -Dm0755 %{_builddir}/%{name}-%{version}/build/%{name} %{buildroot}%{_bin
 %{_bindir}/%{name}
 
 %changelog
+* Fri Sep 5 2025 Jamie Curnow <jc@jc21.com> 0.1.7-1
+- https://github.com/control-theory/gonzo/releases/tag/v0.1.7
+
 * Thu Aug 28 2025 Jamie Curnow <jc@jc21.com> 0.1.5-1
 - https://github.com/control-theory/gonzo/releases/tag/v0.1.5
+
